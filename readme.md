@@ -9,11 +9,11 @@ I wouldn't have been able to get these alerts working without this blog post: ht
 
 This just contains a single font reference and the basic structure for the alert. Below I'll list the fields that I found and/or used to access the settings that you fill out in the StreamLabs alert menu. If you mess around with alert settings and observe the html in the dev menu in your browser, you could probably find a few more, but I didn't do search for more than the few that I needed. These were right last time I checked, they are subject to change.
 
-{name} - username of the subscriber
-{messageTemplate} - the entire message that displays (i.e. "{user} just resubscribed for {months} months!")
-{userMessage} - the resub message that the user inputs
-{img} - the image that you can upload from the StreamLabs menu
-{months} - the amount of resub months. I think this is 0 on a first-time sub?
+- {name} - username of the subscriber
+- {messageTemplate} - the entire message that displays (i.e. "{user} just resubscribed for {months} months!")
+- {userMessage} - the resub message that the user inputs
+- {img} - the image that you can upload from the StreamLabs menu
+- {months} - the amount of resub months. I think this is 0 on a first-time sub?
 
 
 # subscription.css
@@ -31,4 +31,4 @@ This is where the real fun begins. I'll go over the two big nuances that I came 
 
 2. Loading in pictures other than the {img} sometimes has noticeable delay, like using imgur links or something. To get around this, I converted some pictures to base64 and included them within the code itself (the last function with the super long lines). These always loaded consistently for me.
 
-With those two things in mind, I primarily used the GreenSock Animation Package (gsap) to animate the alerts. Since you can't really include other libraries, I took the advice from the blog post above and included a minimized version of gsap as a single line at the top of this file in order to utilize the animation properties. Other than that, it was just a bunch of animation code. Not a lot more to explain.
+With those two things in mind, I primarily used the GreenSock Animation Package (gsap) to animate the alerts. Since you can't really include libraries, I took the advice from the blog post above and included a minimized version of gsap as a single line at the top of this file in order to utilize the animation properties. Other than that, it was just a bunch of animation code. Not a lot more to explain.
