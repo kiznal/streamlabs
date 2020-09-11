@@ -32,3 +32,10 @@ This is where the real fun begins. I'll go over the two big nuances that I came 
 2. Loading in pictures other than the {img} sometimes has noticeable delay, like using imgur links or something. To get around this, I converted some pictures to base64 and included them within the code itself (the last function with the super long lines). These always loaded consistently for me.
 
 With those two things in mind, I primarily used the GreenSock Animation Package (gsap) to animate the alerts. Since you can't really include libraries, I took the advice from the blog post above and included a minimized version of gsap as a single line at the top of this file in order to utilize the animation properties. Other than that, it was just a bunch of animation code. Not a lot more to explain.
+
+
+## Setup
+
+Right before committing this, I pasted the HTML, CSS, and JS files into their respective boxes into the StreamLabs custom code fields and verified that they worked. I seemed to have trouble with getting the custom code workg in the Resub alert, so I did a custom sub month alert for 2 or greater months and the code seemed to work in there.
+
+That's it. Hope this is helpful to anyone who sees it.
