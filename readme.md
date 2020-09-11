@@ -36,6 +36,6 @@ With those two things in mind, I primarily used the GreenSock Animation Package 
 
 ## Setup
 
-Right before committing this, I pasted the HTML, CSS, and JS files into their respective boxes into the StreamLabs custom code fields and verified that they worked. I seemed to have trouble with getting the custom code workg in the Resub alert, so I did a custom sub month alert for 2 or greater months and the code seemed to work in there.
+Right before committing this, I pasted the HTML, CSS, and JS files into their respective boxes into the StreamLabs custom code fields and verified that they worked. I seemed to have trouble with getting the custom code working in the Resub alert, so I did a custom sub month alert for 2 or greater months and the code seemed to work in there.
 
 That's it. Hope this is helpful to anyone who sees it.
