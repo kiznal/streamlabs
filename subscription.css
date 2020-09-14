@@ -51,20 +51,21 @@ html {
 }
 
 #alert-text {
-  color: #FFFFFF;
-  text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
+  color: #FFFFFF !important;
+  text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000 !important;
+}
+
+.alert-text {
+  color: #FFFFFF !important;
+  text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000 !important;
 }
 
 #alert-message {
   text-align: center;
-  color: #FFFFFF !important;
-  text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000 !important;
 }
 
 #alert-user-message {
   text-align: center;
-  color: #FFFFFF !important;
-  text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000 !important;
 }
 
 #alert-user-message img {
@@ -74,8 +75,6 @@ html {
 
 #alert-message > span > span {
   display: inline-block;
-  color: #FFFFFF !important;
-  text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000 !important;
 }
 
 #alert-user-name {
@@ -97,4 +96,9 @@ html {
 
 .letter {
   position: absolute;
+}
+
+.animated-letter {
+  color: #FFFFFF !important;
+  text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000 !important;
 }

@@ -16,13 +16,13 @@ function start() {
 }
 
 
-// all global variables have to be a function, otherwise the insertion messes up.
+// all global variables have to be a function, otherwise the insertion messes up
 function getLetterWidth() {
     return 48;
 }
 
 
-// need to force offset so blocks animate in certain positions.
+// need to force offset so blocks animate in certain positions
 // returns xOffset from left that will center the name
 function getXOffset(element, string) {
     let container = document.getElementById(element.substring(1));
